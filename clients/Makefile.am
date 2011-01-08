@@ -1,4 +1,4 @@
-noinst_PROGRAMS = gears flower screenshot terminal image view dnd smoke resizor
+noinst_PROGRAMS = ereslibre gears flower screenshot terminal image view dnd smoke resizor
 noinst_LTLIBRARIES = libtoytoolkit.la
 
 INCLUDES =					\
@@ -23,6 +23,7 @@ libtoytoolkit_la_SOURCES =			\
 
 flower_SOURCES = flower.c
 smoke_SOURCES = smoke.c
+ereslibre_SOURCES = ereslibre.c
 gears_SOURCES = gears.c
 screenshot_SOURCES = screenshot.c screenshooter-protocol.c
 terminal_SOURCES = terminal.c
