@@ -51,7 +51,7 @@ draw_tux(struct test *test)
 {
   cairo_t *cr = cairo_create(test->surface);
 
-  cairo_set_source_rgba(cr, 0.0, 0.0, 0.0, 0.6);
+  cairo_set_source_rgba(cr, 0.0, 0.0, 0.0, 0.0);
   cairo_set_operator(cr, CAIRO_OPERATOR_SOURCE);
   cairo_paint(cr);
 
